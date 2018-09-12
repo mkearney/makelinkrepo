@@ -1,17 +1,6 @@
----
-output: github_document
----
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-```{r setup, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>",
-  fig.path = "man/figures/README-",
-  out.width = "100%"
-)
-```
 # makelinkrepo
 
 > 🔗🔗 Create link repositories and share them on Github
@@ -28,13 +17,13 @@ remotes::install_github("mkearney/makelinkrepo")
 
 Create a test link repo.
 
-```{r example, eval = FALSE}
+``` r
 ## load pkg
 library(makelinkrepo)
 
 ## vector of links
 links <- c("https://testingtesting.com?q=test&n=500", 
-	"http://test.org#test")
+    "http://test.org#test")
 
 ## repo name
 repo_name <- "linkrepotest"

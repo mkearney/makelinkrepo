@@ -1,15 +1,14 @@
 Package: makelinkrepo
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: Make Github Link Repo
+Version: 0.0.1
 Authors@R: 
     person(given = "Michael Wayne",
            family = "Kearney",
            role = c("aut", "cre"),
            email = "kearneymw@missouri.edu",
            comment = c(ORCID = "0000-0002-0730-4694"))
-Description: What the package does (one paragraph).
-License: MIT + file LICENSE
+Description: Create link repositories and share them on Github.
 Encoding: UTF-8
 LazyData: true
-Imports: 
-    usethis
+License: MIT + file LICENSE
+RoxygenNote: 6.1.0
